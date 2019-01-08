@@ -1,1 +1,6 @@
-$bgColor:#00bcd4
+$bgColor:#00bcd4;
+@mixin textOverFlow {
+    overflow: hidden;;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}

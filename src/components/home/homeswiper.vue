@@ -23,13 +23,13 @@ export default {
         swiperList: [
           {
             id:"001",
-            url:"//img.alicdn.com/tfs/TB1qicwzSzqK1RjSZFLXXcn2XXa-520-280.jpg_q90_.webp"
+            url:"http://img1.qunarzz.com/piao/fusion/1811/7c/8e5c4ab8ee8b7402.jpg_750x200_dd7a38dd.jpg"
           },{
             id:"002",
-            url:"https://img.alicdn.com/simba/img/TB1nFqzjVYqK1RjSZLeSuvXppXa.jpg"
+            url:"http://img1.qunarzz.com/piao/fusion/1812/d6/daa880b254940402.jpg_750x200_b114308a.jpg"
           },{
             id:"003",
-            url:"https://aecpm.alicdn.com/tfscom/TB1voUKygHqK1RjSZFPXXcwapXa.jpg"
+            url:"http://img1.qunarzz.com/piao/fusion/1901/84/5ee692cb657702.jpg_750x200_a5f6cc90.jpg"
           }
         ]
       }
@@ -41,7 +41,7 @@ export default {
     overflow: hidden;
       width: 100%;
       height: 0;
-      padding-bottom:52%;
+      padding-bottom:26.5%;
     .swiper-img {
       width: 100%
     }
