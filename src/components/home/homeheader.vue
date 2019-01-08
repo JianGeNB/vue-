@@ -7,10 +7,12 @@
             <span class="iconfont">&#xe632;</span>
             搜索
         </div>
-        <div class="header-city">
-            定位
+        <router-link to="/city" style="color:white">
+            <div class="header-city">
+            城市
             <span class="iconfont">&#xe62d;</span>
         </div>
+        </router-link>
     </div>
 </template>
 <script>
