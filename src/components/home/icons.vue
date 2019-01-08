@@ -96,7 +96,7 @@ export default {
   width: 100%;
   height: 0;
   padding-bottom: 50%;
-  // background: black;
+  background: #ffffff;
   .icons-box {
     position: relative;
     float: left;
