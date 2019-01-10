@@ -1,37 +1,26 @@
 <template>
   <div class="rightlist">
     <ul>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
+      <li v-for="item of rightList" @click="handleClick">{{item}}</li>
     </ul>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data () {
+    return {
+      rightList: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    }
+  },
+  methods: {
+    handleClick (e) {
+      this.$emit('handleChange',e.target.innerText)
+    }
+  }
+};
 </script>
 <style lang="scss" scoped>
+@import "../../assets/styles/common.scss";
 .rightlist {
   position: absolute;
   top: 1.5rem;
@@ -43,8 +32,9 @@ export default {};
       justify-content: center;
   ul{
       li{
-          color: #777;
-          margin:0.05rem 0
+          color: $bgColor;
+          margin:0.05rem 0;
+          text-align: center
       }
   }
 }

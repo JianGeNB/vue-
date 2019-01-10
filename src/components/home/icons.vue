@@ -13,63 +13,11 @@
 <script>
 export default {
   name: "Icons",
+  props:{
+    iconsList:Array
+  },
   data() {
     return {
-      iconsList: [
-        {
-          id: "001",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
-          detail: "景点门票"
-        },
-        {
-          id: "002",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1811/f6/e54fad3ea337b02.gif",
-          detail: "年终大促"
-        },
-        {
-          id: "003",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1803/54/35899492b1302802.png",
-          detail: "公园"
-        },
-        {
-          id: "004",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
-          detail: "一日游"
-        },
-        {
-          id: "005",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
-          detail: "无锡必游"
-        },
-        {
-          id: "006",
-          url: "http://img1.qunarzz.com/piao/fusion/1803/f5/a963333e1fa802.png",
-          detail: "本地玩乐"
-        },
-        {
-          id: "007",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
-          detail: "亲子游"
-        },
-        {
-          id: "008",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
-          detail: "泡温泉"
-        },
-        {
-          id: "009",
-          url:
-            "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
-          detail: "泡温泉"
-        }
-      ],
       swiperOption: {
           pagination: ".swiper-pagination",
       }

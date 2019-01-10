@@ -18,13 +18,12 @@
 <script>
 export default {
     name:"Hot",
+    props:{
+        hotList:Array
+    },
     data() {
         return {
-            hotList: [
-                {id:'001',url:"http://img1.qunarzz.com/sight/p0/201309/05/52ba2269de301f60c8d65eac.jpg_250x250_20cfa510.jpg",title:"长径老街",cost:'150'},
-                {id:'002',url:"http://img1.qunarzz.com/sight/p0/201309/05/52ba2269de301f60c8d65eac.jpg_250x250_20cfa510.jpg",title:"长径老街",cost:'150'},
-                {id:'003',url:"http://img1.qunarzz.com/sight/p0/201309/05/52ba2269de301f60c8d65eac.jpg_250x250_20cfa510.jpg",title:"长径老街",cost:'150'},
-            ]
+            
         }
     }
 }

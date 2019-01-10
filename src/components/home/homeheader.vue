@@ -9,7 +9,7 @@
         </div>
         <router-link to="/city" style="color:white">
             <div class="header-city">
-            城市
+            {{this.$store.state.currentCity}}
             <span class="iconfont">&#xe62d;</span>
         </div>
         </router-link>
@@ -43,7 +43,6 @@ export default {
         }
         .header-city{
             float: right;
-            width: 1rem  
         }
     }
 </style>

@@ -13,13 +13,11 @@
 <script>
 export default {
     name:'WeekGo',
+    props:{
+        weekList:Array
+    },
     data() {
         return {
-            weekList:[
-                {id:'001',url:'http://img1.qunarzz.com/sight/source/1505/24/4b609109dba139.jpg_r_640x214_b28f6052.jpg'},
-                {id:'002',url:'http://img1.qunarzz.com/sight/source/1811/ed/bf2bc72af591d5.jpg_r_640x214_f9f1bfcc.jpg'},
-                {id:'003',url:'http://img1.qunarzz.com/sight/source/1511/47/8989497ae9bd3f.jpg_r_640x214_18c6d947.jpg'}
-            ]
         }
     }
 }
